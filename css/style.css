@@ -6,6 +6,23 @@
 
 main {
     position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pulsanti {
+    position: absolute;
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    right: 20px;
+}
+
+.pulsanti button {
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 15px 20px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .block {
@@ -28,7 +45,27 @@ main {
 
 .block img {
     position: absolute;
-    top: 50%;
+    width: 40%;
+    height: auto;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.block h1 {
+    position: absolute;
+    width: 30%;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    text-align: center;
+}
+
+.text-yellow {
+    color: yellow;
+}
+
+.text-green {
+    color: green;
 }
